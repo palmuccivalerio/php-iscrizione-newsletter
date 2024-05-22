@@ -1,3 +1,7 @@
+<?php
+require_once __DIR__ . "/functions.php";
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,11 +10,14 @@
     <title>Document</title>
 </head>
 <body>
+
 <form action="index.php" method="GET">
     <div>
-      <label for="mail">parcheggio</label>
+      <label for="mail">inserisci la tua mail</label>
       <input type="text" name="mail" id="mail">
     </div>
+
+    <input type="submit" value="Invia">
     
    
   </form>
